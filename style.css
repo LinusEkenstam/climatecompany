@@ -1,0 +1,89 @@
+html {
+    background-color: #DFE8C2;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h1 {
+    opacity: 0.9;
+    font-family: SFProDisplay-Black;
+    font-size: 44.38px;
+    color: rgba(0,0,0,0.95);
+    letter-spacing: 0;
+  }
+  
+  p {
+    font-family: IowanOldStyle-Roman;
+    font-size: 18px;
+    color: rgba(0,0,0,0.8);
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .split {
+    display: flex;
+    align-items: stretch;
+    align-content: flex-start
+  }
+  
+  .col {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    max-width: 540px;
+    min-width: 400px;
+    padding: 20px;
+  }
+  
+  .color {
+    background-color: #DFE8C2;
+  
+  }
+  
+  .image {
+    background-color: #DFE8C2;
+    background-image: url('forest.jpg');
+    background-size: cover;
+    
+  }
+  
+  .btn {
+    border-radius: 4px;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    font-family: SFProDisplay-Bold, sans-serif;;
+    font-size: 18px;
+    letter-spacing: 0;
+    text-align: center;
+
+    margin-top: 40px;
+  }
+  
+  .btn-green {
+    background-color: #C2CCA1;
+    color: #798847;
+  }
+  
+  .btn-sand {
+    background-color: #CFC0A4;
+    color: #9A8864;
+  }

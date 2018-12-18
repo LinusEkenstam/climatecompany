@@ -25,11 +25,16 @@ html {
   }
   
   p {
-    font-family: IowanOldStyle-Roman;
+    font-family: IowanOldStyle-Roman, serif;
     font-size: 18px;
     color: rgba(0,0,0,0.8);
     letter-spacing: 0;
     line-height: 24px;
+  }
+
+  a {
+      font-weight: bold;
+      color: rgba(0,0,0,0.8);
   }
   
   .split {
